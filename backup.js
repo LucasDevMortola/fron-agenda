@@ -1,0 +1,3460 @@
+var array = [
+	{
+		"id": "C31E776B-DC3B-EB11-9FB3-0003FF5034AB",
+		"nome": "Elvis Kevin Abadi",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": "Minuano Canoas Rugby",
+		"entidadeReferencia": "5E64B7D1-AB0D-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"55E81CB7-2DF6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C31E776B-DC3B-EB11-9FB3-0003FF5034AB",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "C31E776B-DC3B-EB11-9FB3-0003FF5034AB",
+		"nome": "Elvis Kevin Abadi",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": "Minuano Canoas Rugby",
+		"entidadeReferencia": "5E64B7D1-AB0D-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"5BE81CB7-2DF6-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C31E776B-DC3B-EB11-9FB3-0003FF5034AB",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "C692B0D3-8512-ED11-BD6E-A04A5E9D8B9F",
+		"nome": "Lucas mortola da cunhq",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": "São Paulo Athletic Club",
+		"entidadeReferencia": "026D96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"FF1C6127-8612-ED11-BD6E-A04A5E9D8B9F",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C692B0D3-8512-ED11-BD6E-A04A5E9D8B9F",
+		"dataCadastro": "2022-08-02T00:00:00.000Z"
+	},
+	{
+		"id": "C692B0D3-8512-ED11-BD6E-A04A5E9D8B9F",
+		"nome": "Lucas mortola da cunhq",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": "São Paulo Athletic Club",
+		"entidadeReferencia": "026D96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"3D40445A-8A12-ED11-BD6E-A04A5E9D8B9F",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C692B0D3-8512-ED11-BD6E-A04A5E9D8B9F",
+		"dataCadastro": "2022-08-02T00:00:00.000Z"
+	},
+	{
+		"id": "C692B0D3-8512-ED11-BD6E-A04A5E9D8B9F",
+		"nome": "Lucas mortola da cunhq",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": "São Paulo Athletic Club",
+		"entidadeReferencia": "026D96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"3E40445A-8A12-ED11-BD6E-A04A5E9D8B9F",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C692B0D3-8512-ED11-BD6E-A04A5E9D8B9F",
+		"dataCadastro": "2022-08-02T00:00:00.000Z"
+	},
+	{
+		"id": "3BD0588F-B5F3-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Matheus Costa Marinho",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "B4B734E3-D008-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"3DD0588F-B5F3-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "3BD0588F-B5F3-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-24T00:00:00.000Z"
+	},
+	{
+		"id": "3BD0588F-B5F3-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Matheus Costa Marinho",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "B4B734E3-D008-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"3ED0588F-B5F3-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "3BD0588F-B5F3-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-24T00:00:00.000Z"
+	},
+	{
+		"id": "3BD0588F-B5F3-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Matheus Costa Marinho",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "B4B734E3-D008-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"41D0588F-B5F3-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "3BD0588F-B5F3-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-24T00:00:00.000Z"
+	},
+	{
+		"id": "4065F5F9-95F4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Nuria Gomez Maidana",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": null,
+		"entidadeReferencia": "179A3666-9B2D-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"4665F5F9-95F4-EC11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "4065F5F9-95F4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "4065F5F9-95F4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Nuria Gomez Maidana",
+		"cargo": "SOCORRISTA",
+		"clube": null,
+		"entidadeReferencia": "179A3666-9B2D-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"4765F5F9-95F4-EC11-B47A-A04A5E9D9F1A",
+			"D20CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "4065F5F9-95F4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "10141C27-96F4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "GABRIEL PEREIRA COUTO ",
+		"cargo": "ARBITRO",
+		"clube": null,
+		"entidadeReferencia": "9D6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"11141C27-96F4-EC11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "10141C27-96F4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "10141C27-96F4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "GABRIEL PEREIRA COUTO ",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "9D6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"14141C27-96F4-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "10141C27-96F4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "10141C27-96F4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "GABRIEL PEREIRA COUTO ",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "9D6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"17141C27-96F4-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "10141C27-96F4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "E2EBCDA3-9BF4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Victor Augusto Cabreira Fiorelli",
+		"cargo": "SOCORRISTA",
+		"clube": null,
+		"entidadeReferencia": "53DA2365-EA13-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"F637313F-20F6-EC11-B47A-A04A5E9D9F1A",
+			"D20CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "E2EBCDA3-9BF4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "E2EBCDA3-9BF4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Victor Augusto Cabreira Fiorelli",
+		"cargo": "MEDICO",
+		"clube": null,
+		"entidadeReferencia": "53DA2365-EA13-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"F937313F-20F6-EC11-B47A-A04A5E9D9F1A",
+			"D10CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "E2EBCDA3-9BF4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "E2EBCDA3-9BF4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Victor Augusto Cabreira Fiorelli",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": null,
+		"entidadeReferencia": "53DA2365-EA13-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"FA37313F-20F6-EC11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "E2EBCDA3-9BF4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "E2EBCDA3-9BF4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Victor Augusto Cabreira Fiorelli",
+		"cargo": "ARBITRO",
+		"clube": null,
+		"entidadeReferencia": "53DA2365-EA13-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"FC37313F-20F6-EC11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "E2EBCDA3-9BF4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "6D39A229-9FF4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Marcos Gallo ",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "FE6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"6E39A229-9FF4-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "6D39A229-9FF4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "9E13DCA1-9FF4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Pedro Pasin Souza",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "BE6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"9F13DCA1-9FF4-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "9E13DCA1-9FF4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "BDC3567D-A2F4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "CAMILA BORGES MÜLLER ",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "FCC67FAD-9108-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"C2C3567D-A2F4-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BDC3567D-A2F4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "BDC3567D-A2F4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "CAMILA BORGES MÜLLER ",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "FCC67FAD-9108-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"C6C3567D-A2F4-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BDC3567D-A2F4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "D0CA02AA-ACF4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Renato Costa",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": null,
+		"entidadeReferencia": "39536806-B9EE-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"D2CA02AA-ACF4-EC11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "D0CA02AA-ACF4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "D0CA02AA-ACF4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Renato Costa",
+		"cargo": "SOCORRISTA",
+		"clube": null,
+		"entidadeReferencia": "39536806-B9EE-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"D4CA02AA-ACF4-EC11-B47A-A04A5E9D9F1A",
+			"D20CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "D0CA02AA-ACF4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "51050599-BFF4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Jefferson Andreo Flores",
+		"cargo": "PREPARADOR FISICO",
+		"clube": null,
+		"entidadeReferencia": "876C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"59050599-BFF4-EC11-B47A-A04A5E9D9F1A",
+			"D50CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "51050599-BFF4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "51050599-BFF4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Jefferson Andreo Flores",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "876C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"5A050599-BFF4-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "51050599-BFF4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "51050599-BFF4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Jefferson Andreo Flores",
+		"cargo": "SOCORRISTA",
+		"clube": null,
+		"entidadeReferencia": "876C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"5B050599-BFF4-EC11-B47A-A04A5E9D9F1A",
+			"D20CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "51050599-BFF4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "485061F7-D4F4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "André Fujita ",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": null,
+		"entidadeReferencia": "C3807829-D6EE-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"4D5061F7-D4F4-EC11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "485061F7-D4F4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "C176459E-DFF4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Eduardo Paganini Salvat ",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": null,
+		"entidadeReferencia": "4483033B-DD30-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"C376459E-DFF4-EC11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "C176459E-DFF4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "C176459E-DFF4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Eduardo Paganini Salvat ",
+		"cargo": "SOCORRISTA",
+		"clube": null,
+		"entidadeReferencia": "4483033B-DD30-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"C476459E-DFF4-EC11-B47A-A04A5E9D9F1A",
+			"D20CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "C176459E-DFF4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "337CD614-EEF4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Claudio",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "4483033B-DD30-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"357CD614-EEF4-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "337CD614-EEF4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "C9C00392-F8F4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Adriana Soares Andrade",
+		"cargo": "ENFERMEIRO",
+		"clube": null,
+		"entidadeReferencia": "EF42FAAF-A2F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"CBC00392-F8F4-EC11-B47A-A04A5E9D9F1A",
+			"D30CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "C9C00392-F8F4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "C9C00392-F8F4-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Adriana Soares Andrade",
+		"cargo": "SOCORRISTA",
+		"clube": null,
+		"entidadeReferencia": "EF42FAAF-A2F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"CDC00392-F8F4-EC11-B47A-A04A5E9D9F1A",
+			"D20CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "C9C00392-F8F4-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Felipe Papa",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "F96C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"C1FB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Felipe Papa",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "F96C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"C3FB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Felipe Papa",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "F96C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"C4FB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Felipe Papa",
+		"cargo": "MANAGER",
+		"clube": null,
+		"entidadeReferencia": "F96C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"C8FB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Felipe Papa",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "F96C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"CD45365F-1B02-ED11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-12T00:00:00.000Z"
+	},
+	{
+		"id": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Felipe Papa",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "F96C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"CE45365F-1B02-ED11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-12T00:00:00.000Z"
+	},
+	{
+		"id": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Felipe Papa",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "F96C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"D045365F-1B02-ED11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-12T00:00:00.000Z"
+	},
+	{
+		"id": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Felipe Papa",
+		"cargo": "MANAGER",
+		"clube": null,
+		"entidadeReferencia": "F96C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"D245365F-1B02-ED11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-12T00:00:00.000Z"
+	},
+	{
+		"id": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Felipe Papa",
+		"cargo": "PREPARADOR FISICO",
+		"clube": null,
+		"entidadeReferencia": "F96C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"D345365F-1B02-ED11-B47A-A04A5E9D9F1A",
+			"D50CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "BCFB7BF0-22F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-12T00:00:00.000Z"
+	},
+	{
+		"id": "6328C6CA-44F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Elleyson Daniel Nunes de Andrade Rezende ",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "288CBE5A-1D08-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"6628C6CA-44F5-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "6328C6CA-44F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "6328C6CA-44F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Elleyson Daniel Nunes de Andrade Rezende ",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "288CBE5A-1D08-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"6928C6CA-44F5-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "6328C6CA-44F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "6328C6CA-44F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Elleyson Daniel Nunes de Andrade Rezende ",
+		"cargo": "PREPARADOR FISICO",
+		"clube": null,
+		"entidadeReferencia": "288CBE5A-1D08-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"6A28C6CA-44F5-EC11-B47A-A04A5E9D9F1A",
+			"D50CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "6328C6CA-44F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "1F559A7B-4FF5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Magno Oliveira",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "55EF94DE-779C-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"20559A7B-4FF5-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "1F559A7B-4FF5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "1F559A7B-4FF5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Magno Oliveira",
+		"cargo": "ARBITRO",
+		"clube": null,
+		"entidadeReferencia": "55EF94DE-779C-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"21559A7B-4FF5-EC11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "1F559A7B-4FF5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "1F559A7B-4FF5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Magno Oliveira",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "55EF94DE-779C-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"23559A7B-4FF5-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "1F559A7B-4FF5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "CC699260-74F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "RODRIGO TRINDADE NASCIMENTO",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"CE699260-74F5-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "CC699260-74F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "CC699260-74F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "RODRIGO TRINDADE NASCIMENTO",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"D1699260-74F5-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "CC699260-74F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "ADFB59F3-76F5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Juan Alberto Caturelli Kuran",
+		"cargo": "ARBITRO",
+		"clube": null,
+		"entidadeReferencia": "A56C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"AFFB59F3-76F5-EC11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "ADFB59F3-76F5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "74A336A9-9BF5-EC11-B47A-A04A5E9D9F1A",
+		"nome": "GABRIEL CRISTINO DA SILVA",
+		"cargo": "MANAGER",
+		"clube": null,
+		"entidadeReferencia": "E46C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"77A336A9-9BF5-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "74A336A9-9BF5-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "154D92B4-04F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Suellen da Silva Oliveira",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "E3168BDF-F317-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"174D92B4-04F6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "154D92B4-04F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "DEF89999-18F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Luiz Eduardo Fraga",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "4483033B-DD30-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"DFF89999-18F6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "DEF89999-18F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "93C6ED14-19F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Rafael Affonso ",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "27D65A47-87F6-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"95C6ED14-19F6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "93C6ED14-19F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "A188AF1F-19F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Icaro Augusto de Oliveira Leal",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "39536806-B9EE-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"A388AF1F-19F6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "A188AF1F-19F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "311AF232-19F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "ERIVELTON BISPO VIEIRA ",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "EF42FAAF-A2F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"331AF232-19F6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "311AF232-19F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "311AF232-19F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "ERIVELTON BISPO VIEIRA ",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "EF42FAAF-A2F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"351AF232-19F6-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "311AF232-19F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "311AF232-19F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "ERIVELTON BISPO VIEIRA ",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "EF42FAAF-A2F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"371AF232-19F6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "311AF232-19F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "D04F1DA6-19F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Orlando Carlos de Villa Neto ",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "B1E4BC3F-F377-EC11-94F6-A04A5E9D6E69",
+		"idCargo": [
+			"D54F1DA6-19F6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "D04F1DA6-19F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "D04F1DA6-19F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Orlando Carlos de Villa Neto ",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "B1E4BC3F-F377-EC11-94F6-A04A5E9D6E69",
+		"idCargo": [
+			"D64F1DA6-19F6-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "D04F1DA6-19F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "D04F1DA6-19F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Orlando Carlos de Villa Neto ",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "B1E4BC3F-F377-EC11-94F6-A04A5E9D6E69",
+		"idCargo": [
+			"D74F1DA6-19F6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "D04F1DA6-19F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "BD95FFB1-19F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Claudio Buso",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "0FACE49A-6F3A-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"C195FFB1-19F6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BD95FFB1-19F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "BD95FFB1-19F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Claudio Buso",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "0FACE49A-6F3A-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"C295FFB1-19F6-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BD95FFB1-19F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "BD95FFB1-19F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Claudio Buso",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "0FACE49A-6F3A-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"C395FFB1-19F6-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BD95FFB1-19F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "C493CD13-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Wallace Ferreira",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "53DA2365-EA13-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"C893CD13-1BF6-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C493CD13-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "C493CD13-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Wallace Ferreira",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "53DA2365-EA13-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"CA93CD13-1BF6-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C493CD13-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "C493CD13-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Wallace Ferreira",
+		"cargo": "PREPARADOR FISICO",
+		"clube": null,
+		"entidadeReferencia": "53DA2365-EA13-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"CC93CD13-1BF6-EC11-B47A-A04A5E9D9F1A",
+			"D50CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "C493CD13-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "C493CD13-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Wallace Ferreira",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "53DA2365-EA13-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"CD93CD13-1BF6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C493CD13-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "F407F552-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Haroldo Lopes Demes de Castro",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"F507F552-1BF6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "F407F552-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "F407F552-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Haroldo Lopes Demes de Castro",
+		"cargo": "MANAGER",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"F607F552-1BF6-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "F407F552-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "5C388169-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "João Marcelo Borges Pires ",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "39536806-B9EE-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"61388169-1BF6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "5C388169-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "AD69FAFD-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Bruna da Silva Costa",
+		"cargo": "ENFERMEIRO",
+		"clube": null,
+		"entidadeReferencia": "39536806-B9EE-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"AE69FAFD-1BF6-EC11-B47A-A04A5E9D9F1A",
+			"D30CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "AD69FAFD-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "B069FAFD-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Guilherme Rodrigues Moreira",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "16926A17-BF09-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"B169FAFD-1BF6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "B069FAFD-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "B069FAFD-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Guilherme Rodrigues Moreira",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "16926A17-BF09-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"B369FAFD-1BF6-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "B069FAFD-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "B069FAFD-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Guilherme Rodrigues Moreira",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "16926A17-BF09-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"B469FAFD-1BF6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "B069FAFD-1BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "DIEGO HAMILTON SILVA DOS REIS",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "3F184AC6-58F3-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"B0FF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "DIEGO HAMILTON SILVA DOS REIS",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "3F184AC6-58F3-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"B3FF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "DIEGO HAMILTON SILVA DOS REIS",
+		"cargo": "MANAGER",
+		"clube": null,
+		"entidadeReferencia": "3F184AC6-58F3-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"B4FF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "DIEGO HAMILTON SILVA DOS REIS",
+		"cargo": "ARBITRO",
+		"clube": null,
+		"entidadeReferencia": "3F184AC6-58F3-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"B7FF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "DIEGO HAMILTON SILVA DOS REIS",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "3F184AC6-58F3-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"B8FF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "DIEGO HAMILTON SILVA DOS REIS",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "3F184AC6-58F3-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"1DC575A0-A207-ED11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-19T00:00:00.000Z"
+	},
+	{
+		"id": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "DIEGO HAMILTON SILVA DOS REIS",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "3F184AC6-58F3-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"28C575A0-A207-ED11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-19T00:00:00.000Z"
+	},
+	{
+		"id": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "DIEGO HAMILTON SILVA DOS REIS",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "3F184AC6-58F3-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"1FC575A0-A207-ED11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-19T00:00:00.000Z"
+	},
+	{
+		"id": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "DIEGO HAMILTON SILVA DOS REIS",
+		"cargo": "SOCORRISTA",
+		"clube": null,
+		"entidadeReferencia": "3F184AC6-58F3-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"20C575A0-A207-ED11-B47A-A04A5E9D9F1A",
+			"D20CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-19T00:00:00.000Z"
+	},
+	{
+		"id": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "DIEGO HAMILTON SILVA DOS REIS",
+		"cargo": "PREPARADOR FISICO",
+		"clube": null,
+		"entidadeReferencia": "3F184AC6-58F3-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"21C575A0-A207-ED11-B47A-A04A5E9D9F1A",
+			"D50CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-19T00:00:00.000Z"
+	},
+	{
+		"id": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "DIEGO HAMILTON SILVA DOS REIS",
+		"cargo": "ARBITRO",
+		"clube": null,
+		"entidadeReferencia": "3F184AC6-58F3-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"23C575A0-A207-ED11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-19T00:00:00.000Z"
+	},
+	{
+		"id": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "DIEGO HAMILTON SILVA DOS REIS",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "3F184AC6-58F3-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"25C575A0-A207-ED11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-19T00:00:00.000Z"
+	},
+	{
+		"id": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "DIEGO HAMILTON SILVA DOS REIS",
+		"cargo": "MANAGER",
+		"clube": null,
+		"entidadeReferencia": "3F184AC6-58F3-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"27C575A0-A207-ED11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "AEFF8A42-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-19T00:00:00.000Z"
+	},
+	{
+		"id": "8C24C356-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Francisco Manoel Marques Neto",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": null,
+		"entidadeReferencia": "FCC67FAD-9108-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"8E24C356-1CF6-EC11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "8C24C356-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "D90CF6F6-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "ELISSANDRO BARBOZA DE LIMA",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "39536806-B9EE-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"E10CF6F6-1CF6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "D90CF6F6-1CF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "F1C97170-1DF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Cristiano Censoni ",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "53DA2365-EA13-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"F5C97170-1DF6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "F1C97170-1DF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "2CD829DC-1FF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Kamilla BItencourt Roddrigues ",
+		"cargo": "ARBITRO",
+		"clube": null,
+		"entidadeReferencia": "9D6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"30D829DC-1FF6-EC11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "2CD829DC-1FF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "C14AAFEB-20F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Rodrigo de Oliveira Noronha",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "04AC4DC5-BF30-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"C34AAFEB-20F6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C14AAFEB-20F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "C14AAFEB-20F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Rodrigo de Oliveira Noronha",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "04AC4DC5-BF30-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"C64AAFEB-20F6-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C14AAFEB-20F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "C14AAFEB-20F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Rodrigo de Oliveira Noronha",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "04AC4DC5-BF30-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"C74AAFEB-20F6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C14AAFEB-20F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "0600E03C-24F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Yan Machado de Carvalho ",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "E46C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"0700E03C-24F6-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "0600E03C-24F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "0600E03C-24F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Yan Machado de Carvalho ",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "E46C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"0900E03C-24F6-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "0600E03C-24F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FA8BE1BE-26F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "John Leandro Batista Schiling",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "FCC67FAD-9108-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"FE8BE1BE-26F6-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "FA8BE1BE-26F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FA8BE1BE-26F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "John Leandro Batista Schiling",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "FCC67FAD-9108-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"FF8BE1BE-26F6-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "FA8BE1BE-26F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FA8BE1BE-26F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "John Leandro Batista Schiling",
+		"cargo": "MANAGER",
+		"clube": null,
+		"entidadeReferencia": "FCC67FAD-9108-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"008CE1BE-26F6-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "FA8BE1BE-26F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FA8BE1BE-26F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "John Leandro Batista Schiling",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "FCC67FAD-9108-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"028CE1BE-26F6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "FA8BE1BE-26F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "F7A47137-29F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Osíris Nascimento de Carvalho Neto",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": null,
+		"entidadeReferencia": "E46C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"F9A47137-29F6-EC11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "F7A47137-29F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "BC278515-2AF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "ivanildes oliveira",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "9D6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"BF278515-2AF6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BC278515-2AF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "BC278515-2AF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "ivanildes oliveira",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "9D6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"C0278515-2AF6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BC278515-2AF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "B85BD029-2AF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Raphael Brunno de Sena Matos ",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "39536806-B9EE-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"BB5BD029-2AF6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "B85BD029-2AF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "011C20BF-2AF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Andrielle Chaves de Almeida",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": null,
+		"entidadeReferencia": "39536806-B9EE-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"021C20BF-2AF6-EC11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "011C20BF-2AF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "2C7BB465-2DF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Guilherme Marques",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "EDC3890D-1B08-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"467BB465-2DF6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "2C7BB465-2DF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "2C7BB465-2DF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Guilherme Marques",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "EDC3890D-1B08-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"487BB465-2DF6-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "2C7BB465-2DF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "2C7BB465-2DF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Guilherme Marques",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "EDC3890D-1B08-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"497BB465-2DF6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "2C7BB465-2DF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "DB206AB7-33F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Roberto Mendes Cruzetta junior",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "A06C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"DC206AB7-33F6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "DB206AB7-33F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "E29EFF65-35F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Everton Antonio Diniz",
+		"cargo": "ARBITRO",
+		"clube": null,
+		"entidadeReferencia": "EB6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"E49EFF65-35F6-EC11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "E29EFF65-35F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "D2DD119A-37F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Eduarda Camilo Martins Faria",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"D3DD119A-37F6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "D2DD119A-37F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "1B3623F9-3AF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Franco Javier Corbo",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "16926A17-BF09-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"1D3623F9-3AF6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "1B3623F9-3AF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "1B3623F9-3AF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Franco Javier Corbo",
+		"cargo": "MANAGER",
+		"clube": null,
+		"entidadeReferencia": "16926A17-BF09-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"1E3623F9-3AF6-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "1B3623F9-3AF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "DF7E97D5-40F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Adeilton dos Santos Gonzaga",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"E17E97D5-40F6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "DF7E97D5-40F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "DF7E97D5-40F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Adeilton dos Santos Gonzaga",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"E27E97D5-40F6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "DF7E97D5-40F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "DF7E97D5-40F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Adeilton dos Santos Gonzaga",
+		"cargo": "PREPARADOR FISICO",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"E37E97D5-40F6-EC11-B47A-A04A5E9D9F1A",
+			"D50CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "DF7E97D5-40F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "DF7E97D5-40F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Adeilton dos Santos Gonzaga",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"E67E97D5-40F6-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "DF7E97D5-40F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "67550E8F-46F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Carlos Federico Spago",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "026D96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"69550E8F-46F6-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "67550E8F-46F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "67550E8F-46F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Carlos Federico Spago",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "026D96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"0D87469E-1802-ED11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "67550E8F-46F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-12T00:00:00.000Z"
+	},
+	{
+		"id": "67550E8F-46F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Carlos Federico Spago",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "026D96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"0E87469E-1802-ED11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "67550E8F-46F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-12T00:00:00.000Z"
+	},
+	{
+		"id": "67550E8F-46F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Carlos Federico Spago",
+		"cargo": "SOCORRISTA",
+		"clube": null,
+		"entidadeReferencia": "026D96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"0F87469E-1802-ED11-B47A-A04A5E9D9F1A",
+			"D20CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "67550E8F-46F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-12T00:00:00.000Z"
+	},
+	{
+		"id": "9E4E78B1-51F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Letícia Oliveira Martins",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": null,
+		"entidadeReferencia": "AC2E6C10-4B3A-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"A24E78B1-51F6-EC11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "9E4E78B1-51F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "9E4E78B1-51F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Letícia Oliveira Martins",
+		"cargo": "SOCORRISTA",
+		"clube": null,
+		"entidadeReferencia": "AC2E6C10-4B3A-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"A34E78B1-51F6-EC11-B47A-A04A5E9D9F1A",
+			"D20CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "9E4E78B1-51F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "D3325F32-53F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Joicy Souza Lima ",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"D4325F32-53F6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "D3325F32-53F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "D3325F32-53F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Joicy Souza Lima ",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"D5325F32-53F6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "D3325F32-53F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "D3325F32-53F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Joicy Souza Lima ",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"D7325F32-53F6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "D3325F32-53F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "D3325F32-53F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Joicy Souza Lima ",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"D8325F32-53F6-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "D3325F32-53F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FBF45140-56F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "AUGUSTO BREGA FUJIMOTO",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "EB6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"FCF45140-56F6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "FBF45140-56F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FBF45140-56F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "AUGUSTO BREGA FUJIMOTO",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "EB6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"FDF45140-56F6-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "FBF45140-56F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FBF45140-56F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "AUGUSTO BREGA FUJIMOTO",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "EB6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"FEF45140-56F6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "FBF45140-56F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FBF45140-56F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "AUGUSTO BREGA FUJIMOTO",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "EB6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"FFF45140-56F6-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "FBF45140-56F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FBF45140-56F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "AUGUSTO BREGA FUJIMOTO",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "EB6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"03F55140-56F6-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "FBF45140-56F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FB22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Fernando de Paiva Reis",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "B16C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"FC22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "FB22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FB22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Fernando de Paiva Reis",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "B16C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"FD22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "FB22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FB22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Fernando de Paiva Reis",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "B16C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"FE22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "FB22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FB22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Fernando de Paiva Reis",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "B16C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"FF22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "FB22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FB22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Fernando de Paiva Reis",
+		"cargo": "PREPARADOR FISICO",
+		"clube": null,
+		"entidadeReferencia": "B16C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"0123D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+			"D50CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "FB22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "FB22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Fernando de Paiva Reis",
+		"cargo": "ARBITRO",
+		"clube": null,
+		"entidadeReferencia": "B16C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"0423D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "FB22D16A-56F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "1DAF76CF-59F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Antonio Dias Milhomens Neto",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "CF6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"24AF76CF-59F6-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "1DAF76CF-59F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "1DAF76CF-59F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Antonio Dias Milhomens Neto",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "CF6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"27AF76CF-59F6-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "1DAF76CF-59F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "1DAF76CF-59F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Antonio Dias Milhomens Neto",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "CF6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"29AF76CF-59F6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "1DAF76CF-59F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "79B30764-5AF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Bruno Reginatti da Silveira",
+		"cargo": "MANAGER",
+		"clube": null,
+		"entidadeReferencia": "EDC3890D-1B08-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"7BB30764-5AF6-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "79B30764-5AF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "5E08EC46-5BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Aurélio Spegel ",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "C1E3EDE8-8D14-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"6008EC46-5BF6-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "5E08EC46-5BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "5E08EC46-5BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Aurélio Spegel ",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "C1E3EDE8-8D14-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"6108EC46-5BF6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "5E08EC46-5BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "5E08EC46-5BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Aurélio Spegel ",
+		"cargo": "PREPARADOR FISICO",
+		"clube": null,
+		"entidadeReferencia": "C1E3EDE8-8D14-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"6508EC46-5BF6-EC11-B47A-A04A5E9D9F1A",
+			"D50CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "5E08EC46-5BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "5E08EC46-5BF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Aurélio Spegel ",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "C1E3EDE8-8D14-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"6708EC46-5BF6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "5E08EC46-5BF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "962EF772-6FF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Douglas Lobato Machado",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "FCC67FAD-9108-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"992EF772-6FF6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "962EF772-6FF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "962EF772-6FF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Douglas Lobato Machado",
+		"cargo": "PREPARADOR FISICO",
+		"clube": null,
+		"entidadeReferencia": "FCC67FAD-9108-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"9C2EF772-6FF6-EC11-B47A-A04A5E9D9F1A",
+			"D50CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "962EF772-6FF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "BA724996-70F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "David Grael V. DIAS",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "AB6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"BB724996-70F6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BA724996-70F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "BA724996-70F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "David Grael V. DIAS",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "AB6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"C0724996-70F6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BA724996-70F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "BA724996-70F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "David Grael V. DIAS",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "AB6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"C2724996-70F6-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BA724996-70F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "BA724996-70F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "David Grael V. DIAS",
+		"cargo": "SOCORRISTA",
+		"clube": null,
+		"entidadeReferencia": "AB6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"C4724996-70F6-EC11-B47A-A04A5E9D9F1A",
+			"D20CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "BA724996-70F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "BA724996-70F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "David Grael V. DIAS",
+		"cargo": "PREPARADOR FISICO",
+		"clube": null,
+		"entidadeReferencia": "AB6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"C7724996-70F6-EC11-B47A-A04A5E9D9F1A",
+			"D50CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "BA724996-70F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "7BA18BEA-82F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Natália de M Tomaz",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "AC2E6C10-4B3A-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"81A18BEA-82F6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "7BA18BEA-82F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-28T00:00:00.000Z"
+	},
+	{
+		"id": "7BA18BEA-82F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Natália de M Tomaz",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "AC2E6C10-4B3A-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"83A18BEA-82F6-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "7BA18BEA-82F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-28T00:00:00.000Z"
+	},
+	{
+		"id": "F688469F-E3F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Beatriz Futuro Muhlbauer",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "4483033B-DD30-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"F788469F-E3F6-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "F688469F-E3F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-28T00:00:00.000Z"
+	},
+	{
+		"id": "82AC35CB-E9F6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "João Pedro Martins Perin ",
+		"cargo": "MANAGER",
+		"clube": null,
+		"entidadeReferencia": "DE6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"84AC35CB-E9F6-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "82AC35CB-E9F6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-28T00:00:00.000Z"
+	},
+	{
+		"id": "64B42C03-ECF6-EC11-B47A-A04A5E9D9F1A",
+		"nome": "LUCAS SANTOS OLIVEIRA",
+		"cargo": "ARBITRO",
+		"clube": null,
+		"entidadeReferencia": "BD6C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"69B42C03-ECF6-EC11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "64B42C03-ECF6-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-28T00:00:00.000Z"
+	},
+	{
+		"id": "B40048CA-08F7-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Marcelo Augusto Sauerbronn de Andrade",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "76844571-E413-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"B60048CA-08F7-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "B40048CA-08F7-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-28T00:00:00.000Z"
+	},
+	{
+		"id": "A5A08AB3-0EF7-EC11-B47A-A04A5E9D9F1A",
+		"nome": "AMANDA DE MELLO PAULA",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "042F113A-A20D-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"A9A08AB3-0EF7-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "A5A08AB3-0EF7-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-28T00:00:00.000Z"
+	},
+	{
+		"id": "A5A08AB3-0EF7-EC11-B47A-A04A5E9D9F1A",
+		"nome": "AMANDA DE MELLO PAULA",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "042F113A-A20D-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"ABA08AB3-0EF7-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "A5A08AB3-0EF7-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-28T00:00:00.000Z"
+	},
+	{
+		"id": "8EE97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Daiani Cristini Camargo Fonseca ",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "0C6AD1CC-C6EC-EC11-B47A-A04A5E9D9F1A",
+		"idCargo": [
+			"8FE97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "8EE97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "8EE97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Daiani Cristini Camargo Fonseca ",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "0C6AD1CC-C6EC-EC11-B47A-A04A5E9D9F1A",
+		"idCargo": [
+			"91E97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "8EE97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "8EE97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Daiani Cristini Camargo Fonseca ",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "0C6AD1CC-C6EC-EC11-B47A-A04A5E9D9F1A",
+		"idCargo": [
+			"92E97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "8EE97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "8EE97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Daiani Cristini Camargo Fonseca ",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "0C6AD1CC-C6EC-EC11-B47A-A04A5E9D9F1A",
+		"idCargo": [
+			"93E97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "8EE97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "8EE97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Daiani Cristini Camargo Fonseca ",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "0C6AD1CC-C6EC-EC11-B47A-A04A5E9D9F1A",
+		"idCargo": [
+			"97E97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "8EE97491-A5F7-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "FB723ECC-B0F7-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Douglas Andrade",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "76844571-E413-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"FD723ECC-B0F7-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "FB723ECC-B0F7-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "C40F042A-B2F7-EC11-B47A-A04A5E9D9F1A",
+		"nome": "lucas omena",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "76844571-E413-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"C60F042A-B2F7-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C40F042A-B2F7-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "77EA439B-C0F7-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Luiz Alberto Castrucci di Moisé",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "76844571-E413-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"7AEA439B-C0F7-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "77EA439B-C0F7-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "77EA439B-C0F7-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Luiz Alberto Castrucci di Moisé",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "76844571-E413-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"7CEA439B-C0F7-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "77EA439B-C0F7-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "0224D3B7-DAF7-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Marcos Moisé",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "76844571-E413-EB11-9FB3-501AC5CEE536",
+		"idCargo": [
+			"0424D3B7-DAF7-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "0224D3B7-DAF7-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "A2A109F2-E0F8-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Bruno Cesar Correa Arbiza",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": null,
+		"entidadeReferencia": "F069D0DC-1C29-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"A5A109F2-E0F8-EC11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "A2A109F2-E0F8-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-01T00:00:00.000Z"
+	},
+	{
+		"id": "D3CB3ADC-F8F8-EC11-B47A-A04A5E9D9F1A",
+		"nome": "LILIAN GABRIELLE RAMOS COSTA",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": null,
+		"entidadeReferencia": "D671DA53-F6F8-EC11-B47A-A04A5E9D9F1A",
+		"idCargo": [
+			"D5CB3ADC-F8F8-EC11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "D3CB3ADC-F8F8-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-01T00:00:00.000Z"
+	},
+	{
+		"id": "D3CB3ADC-F8F8-EC11-B47A-A04A5E9D9F1A",
+		"nome": "LILIAN GABRIELLE RAMOS COSTA",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "D671DA53-F6F8-EC11-B47A-A04A5E9D9F1A",
+		"idCargo": [
+			"D6CB3ADC-F8F8-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "D3CB3ADC-F8F8-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-01T00:00:00.000Z"
+	},
+	{
+		"id": "C2447929-76F9-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Carlos Javier Pazos",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "16926A17-BF09-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"C5447929-76F9-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C2447929-76F9-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-01T00:00:00.000Z"
+	},
+	{
+		"id": "C2447929-76F9-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Carlos Javier Pazos",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "16926A17-BF09-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"C7447929-76F9-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C2447929-76F9-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-01T00:00:00.000Z"
+	},
+	{
+		"id": "C2447929-76F9-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Carlos Javier Pazos",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": null,
+		"entidadeReferencia": "16926A17-BF09-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"C8447929-76F9-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C2447929-76F9-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-01T00:00:00.000Z"
+	},
+	{
+		"id": "E79400E1-9FF9-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Pedro Henrique bento Rodrigues Silva",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"E89400E1-9FF9-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "E79400E1-9FF9-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-02T00:00:00.000Z"
+	},
+	{
+		"id": "05D34332-3AFD-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Lucas Azevedo Oliveira",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": null,
+		"entidadeReferencia": "A903928C-8B32-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"06D34332-3AFD-EC11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "05D34332-3AFD-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-06T00:00:00.000Z"
+	},
+	{
+		"id": "602C55C5-9DFD-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Daiana",
+		"cargo": "MANAGER",
+		"clube": null,
+		"entidadeReferencia": "2D6B935F-0328-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"622C55C5-9DFD-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "602C55C5-9DFD-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-07T00:00:00.000Z"
+	},
+	{
+		"id": "602C55C5-9DFD-EC11-B47A-A04A5E9D9F1A",
+		"nome": "Daiana",
+		"cargo": "MANAGER",
+		"clube": null,
+		"entidadeReferencia": "2D6B935F-0328-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"652C55C5-9DFD-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "602C55C5-9DFD-EC11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-07T00:00:00.000Z"
+	},
+	{
+		"id": "BFC5CD2F-4902-ED11-B47A-A04A5E9D9F1A",
+		"nome": "Sheila Nascimento Elizeu",
+		"cargo": "ARBITRO",
+		"clube": null,
+		"entidadeReferencia": "9DA25EE0-A508-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"C1C5CD2F-4902-ED11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "BFC5CD2F-4902-ED11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-13T00:00:00.000Z"
+	},
+	{
+		"id": "DB9575F2-B203-ED11-B47A-A04A5E9D9F1A",
+		"nome": "Lucas",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "A16C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"DD9575F2-B203-ED11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "DB9575F2-B203-ED11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-14T00:00:00.000Z"
+	},
+	{
+		"id": "DB9575F2-B203-ED11-B47A-A04A5E9D9F1A",
+		"nome": "Lucas",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": null,
+		"entidadeReferencia": "A16C96F1-469E-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"27B22AC7-B303-ED11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "DB9575F2-B203-ED11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-14T00:00:00.000Z"
+	},
+	{
+		"id": "2036E49C-7604-ED11-B47A-A04A5E9D9F1A",
+		"nome": "Paulo cesar dos santos",
+		"cargo": "MANAGER",
+		"clube": null,
+		"entidadeReferencia": "2D6B935F-0328-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"2236E49C-7604-ED11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "2036E49C-7604-ED11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-15T00:00:00.000Z"
+	},
+	{
+		"id": "874F2FB4-9906-ED11-B47A-A04A5E9D9F1A",
+		"nome": "Guillaume",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "0FACE49A-6F3A-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"884F2FB4-9906-ED11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "874F2FB4-9906-ED11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-18T00:00:00.000Z"
+	},
+	{
+		"id": "874F2FB4-9906-ED11-B47A-A04A5E9D9F1A",
+		"nome": "Guillaume",
+		"cargo": "MANAGER",
+		"clube": null,
+		"entidadeReferencia": "0FACE49A-6F3A-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"8B4F2FB4-9906-ED11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "874F2FB4-9906-ED11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-18T00:00:00.000Z"
+	},
+	{
+		"id": "874F2FB4-9906-ED11-B47A-A04A5E9D9F1A",
+		"nome": "Guillaume",
+		"cargo": "ARBITRO",
+		"clube": null,
+		"entidadeReferencia": "0FACE49A-6F3A-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"8E4F2FB4-9906-ED11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "874F2FB4-9906-ED11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-18T00:00:00.000Z"
+	},
+	{
+		"id": "DECC6022-FC06-ED11-B47A-A04A5E9D9F1A",
+		"nome": "Gustavo Douglas Brito Solidade",
+		"cargo": "PREPARADOR FISICO",
+		"clube": null,
+		"entidadeReferencia": "179A3666-9B2D-EB11-9FB3-0003FF5034AB",
+		"idCargo": [
+			"E0CC6022-FC06-ED11-B47A-A04A5E9D9F1A",
+			"D50CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "DECC6022-FC06-ED11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-19T00:00:00.000Z"
+	},
+	{
+		"id": "F8502D45-F908-ED11-B47A-A04A5E9D9F1A",
+		"nome": "Bruno de Assis Godoy",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": null,
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"F9502D45-F908-ED11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "F8502D45-F908-ED11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-21T00:00:00.000Z"
+	},
+	{
+		"id": "95098326-0C0E-ED11-B47A-A04A5E9D9F1A",
+		"nome": "Jacqueline Aparecida Ferreira Prado ",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "C3807829-D6EE-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"97098326-0C0E-ED11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "95098326-0C0E-ED11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-28T00:00:00.000Z"
+	},
+	{
+		"id": "3D448D39-980E-ED11-B47A-A04A5E9D9F1A",
+		"nome": "Aurea Milene Teixeira barbosa dos santos",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "51716190-E49B-EB11-85AA-A085FC572DAB",
+		"idCargo": [
+			"40448D39-980E-ED11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "3D448D39-980E-ED11-B47A-A04A5E9D9F1A",
+		"dataCadastro": "2022-07-28T00:00:00.000Z"
+	},
+	{
+		"id": "420FB9CF-E0E9-EC11-B656-A04A5EA90A92",
+		"nome": "GILSON HELIO SOUSA RIBEIRO",
+		"cargo": "GESTOR",
+		"clube": "Ymborés Rugby Club",
+		"entidadeReferencia": "EF2A4CCA-C1F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"09195F7D-B3F4-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "420FB9CF-E0E9-EC11-B656-A04A5EA90A92",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "2E50C811-E1E9-EC11-B656-A04A5EA90A92",
+		"nome": "ELIANA LIMA DA CRUZ RIBEIRO",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": "Ymborés Rugby Club",
+		"entidadeReferencia": "EF2A4CCA-C1F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"7CCA516D-B2F4-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "2E50C811-E1E9-EC11-B656-A04A5EA90A92",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "2E50C811-E1E9-EC11-B656-A04A5EA90A92",
+		"nome": "ELIANA LIMA DA CRUZ RIBEIRO",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": "Ymborés Rugby Club",
+		"entidadeReferencia": "EF2A4CCA-C1F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"7DCA516D-B2F4-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "2E50C811-E1E9-EC11-B656-A04A5EA90A92",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "2E50C811-E1E9-EC11-B656-A04A5EA90A92",
+		"nome": "ELIANA LIMA DA CRUZ RIBEIRO",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": "Ymborés Rugby Club",
+		"entidadeReferencia": "EF2A4CCA-C1F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"7FCA516D-B2F4-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "2E50C811-E1E9-EC11-B656-A04A5EA90A92",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "D02DCF8F-23F6-EB11-B563-A04A5EA9144C",
+		"nome": "Leandro Sandes Gevaerd",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": "São Paulo Athletic Club",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"FEDB5AAE-FF06-ED11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "D02DCF8F-23F6-EB11-B563-A04A5EA9144C",
+		"dataCadastro": "2022-07-19T00:00:00.000Z"
+	},
+	{
+		"id": "D44CEE6E-2500-EC11-B563-A04A5EA9144C",
+		"nome": "Ana Cecilia Kruschewsky Gomes Simões ",
+		"cargo": "ARBITRO",
+		"clube": "CHARRUA RUGBY CLUBE",
+		"entidadeReferencia": "8FD7B2EB-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"D50E6DCA-D606-ED11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "D44CEE6E-2500-EC11-B563-A04A5EA9144C",
+		"dataCadastro": "2022-07-18T00:00:00.000Z"
+	},
+	{
+		"id": "81944DAE-9833-EC11-9820-A04A5EA91E0D",
+		"nome": "Elbio Leandro Benitez",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": "Tucanos Rugby Club",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"6555486D-010E-ED11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "81944DAE-9833-EC11-9820-A04A5EA91E0D",
+		"dataCadastro": "2022-07-27T00:00:00.000Z"
+	},
+	{
+		"id": "82C0CF97-173C-EC11-9820-A04A5EA91E0D",
+		"nome": "CLARICE COUTO DE OLIVEIRA",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": "Ymborés Rugby Club",
+		"entidadeReferencia": "EF2A4CCA-C1F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"4EE7D06B-71F5-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "82C0CF97-173C-EC11-9820-A04A5EA91E0D",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "82C0CF97-173C-EC11-9820-A04A5EA91E0D",
+		"nome": "CLARICE COUTO DE OLIVEIRA",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": "Ymborés Rugby Club",
+		"entidadeReferencia": "EF2A4CCA-C1F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"50E7D06B-71F5-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "82C0CF97-173C-EC11-9820-A04A5EA91E0D",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "82C0CF97-173C-EC11-9820-A04A5EA91E0D",
+		"nome": "CLARICE COUTO DE OLIVEIRA",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": "Ymborés Rugby Club",
+		"entidadeReferencia": "EF2A4CCA-C1F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"54E7D06B-71F5-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "82C0CF97-173C-EC11-9820-A04A5EA91E0D",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "82C0CF97-173C-EC11-9820-A04A5EA91E0D",
+		"nome": "CLARICE COUTO DE OLIVEIRA",
+		"cargo": "GESTOR",
+		"clube": "Ymborés Rugby Club",
+		"entidadeReferencia": "EF2A4CCA-C1F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"55E7D06B-71F5-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "82C0CF97-173C-EC11-9820-A04A5EA91E0D",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "82C0CF97-173C-EC11-9820-A04A5EA91E0D",
+		"nome": "CLARICE COUTO DE OLIVEIRA",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": "Ymborés Rugby Club",
+		"entidadeReferencia": "EF2A4CCA-C1F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"56E7D06B-71F5-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "82C0CF97-173C-EC11-9820-A04A5EA91E0D",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "82C0CF97-173C-EC11-9820-A04A5EA91E0D",
+		"nome": "CLARICE COUTO DE OLIVEIRA",
+		"cargo": "MANAGER",
+		"clube": "Ymborés Rugby Club",
+		"entidadeReferencia": "EF2A4CCA-C1F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"57E7D06B-71F5-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "82C0CF97-173C-EC11-9820-A04A5EA91E0D",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "3B35258E-E50C-EC11-981F-A04A5EA93189",
+		"nome": "Suelane Roberta de Souza Cunha",
+		"cargo": "GESTOR",
+		"clube": "ACEMIRA RUGBY BELÉM",
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"9CDCC4AA-9AF7-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "3B35258E-E50C-EC11-981F-A04A5EA93189",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "3B35258E-E50C-EC11-981F-A04A5EA93189",
+		"nome": "Suelane Roberta de Souza Cunha",
+		"cargo": "MANAGER",
+		"clube": "ACEMIRA RUGBY BELÉM",
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"9EDCC4AA-9AF7-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "3B35258E-E50C-EC11-981F-A04A5EA93189",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "3B35258E-E50C-EC11-981F-A04A5EA93189",
+		"nome": "Suelane Roberta de Souza Cunha",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": "ACEMIRA RUGBY BELÉM",
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"A0DCC4AA-9AF7-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "3B35258E-E50C-EC11-981F-A04A5EA93189",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "3B35258E-E50C-EC11-981F-A04A5EA93189",
+		"nome": "Suelane Roberta de Souza Cunha",
+		"cargo": "ARBITRO",
+		"clube": "ACEMIRA RUGBY BELÉM",
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"A1DCC4AA-9AF7-EC11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "3B35258E-E50C-EC11-981F-A04A5EA93189",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "3B35258E-E50C-EC11-981F-A04A5EA93189",
+		"nome": "Suelane Roberta de Souza Cunha",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": "ACEMIRA RUGBY BELÉM",
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"A3DCC4AA-9AF7-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "3B35258E-E50C-EC11-981F-A04A5EA93189",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "E517ED8D-EC14-EC11-981F-A04A5EA93189",
+		"nome": "Beatriz Alves Bentes",
+		"cargo": "GESTOR",
+		"clube": "ACEMIRA RUGBY BELÉM",
+		"entidadeReferencia": "4EFA2FE4-8CDB-EC11-B656-A04A5EA99CCE",
+		"idCargo": [
+			"0F6FADA3-9BF7-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "E517ED8D-EC14-EC11-981F-A04A5EA93189",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "FAB2D17B-8923-EC11-981F-A04A5EA93189",
+		"nome": "ANTONIO LUIZ ABREU",
+		"cargo": "PREPARADOR FISICO",
+		"clube": "ASSOCIAÇÃO ESPORTIVA RUGBY CLUBE (SÃO JOSÉ RUGBY)",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"D59456BC-53F7-EC11-B47A-A04A5E9D9F1A",
+			"D50CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "FAB2D17B-8923-EC11-981F-A04A5EA93189",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "FAB2D17B-8923-EC11-981F-A04A5EA93189",
+		"nome": "ANTONIO LUIZ ABREU",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": "ASSOCIAÇÃO ESPORTIVA RUGBY CLUBE (SÃO JOSÉ RUGBY)",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"D69456BC-53F7-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "FAB2D17B-8923-EC11-981F-A04A5EA93189",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "88B1507B-E7A9-EC11-997E-A04A5EA93B47",
+		"nome": "ANDERSON KANATIEL ECKSTEIN",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": "Associação Piracicaba Rugby ",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"5235A44A-2FF6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "88B1507B-E7A9-EC11-997E-A04A5EA93B47",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "F691D343-83CA-EC11-997E-A04A5EA93B47",
+		"nome": "Luiz Carlos de Paiva Jr",
+		"cargo": "MANAGER",
+		"clube": "Real Rugby Football Club",
+		"entidadeReferencia": "1833A01F-EF01-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"A80CD7B5-55F6-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "F691D343-83CA-EC11-997E-A04A5EA93B47",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "2903DD4C-F4D3-EC11-B656-A04A5EA99CCE",
+		"nome": "THIAGO GALVÃO DURO",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": "Guanabara Rugby",
+		"entidadeReferencia": "1833A01F-EF01-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"25708F96-B8F5-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "2903DD4C-F4D3-EC11-B656-A04A5EA99CCE",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "2903DD4C-F4D3-EC11-B656-A04A5EA99CCE",
+		"nome": "THIAGO GALVÃO DURO",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": "Guanabara Rugby",
+		"entidadeReferencia": "1833A01F-EF01-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"27708F96-B8F5-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "2903DD4C-F4D3-EC11-B656-A04A5EA99CCE",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "2903DD4C-F4D3-EC11-B656-A04A5EA99CCE",
+		"nome": "THIAGO GALVÃO DURO",
+		"cargo": "MANAGER",
+		"clube": "Guanabara Rugby",
+		"entidadeReferencia": "1833A01F-EF01-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"28708F96-B8F5-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "2903DD4C-F4D3-EC11-B656-A04A5EA99CCE",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "2903DD4C-F4D3-EC11-B656-A04A5EA99CCE",
+		"nome": "THIAGO GALVÃO DURO",
+		"cargo": "GESTOR",
+		"clube": "Guanabara Rugby",
+		"entidadeReferencia": "1833A01F-EF01-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"2A708F96-B8F5-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "2903DD4C-F4D3-EC11-B656-A04A5EA99CCE",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "15D31BDC-C6DD-EC11-B656-A04A5EA99CCE",
+		"nome": "Gabriel Colini Cenamo",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": null,
+		"entidadeReferencia": "39536806-B9EE-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"5053699F-27E0-EC11-B656-A04A5EA99CCE",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "15D31BDC-C6DD-EC11-B656-A04A5EA99CCE",
+		"dataCadastro": "2022-05-30T00:00:00.000Z"
+	},
+	{
+		"id": "15D31BDC-C6DD-EC11-B656-A04A5EA99CCE",
+		"nome": "Gabriel Colini Cenamo",
+		"cargo": "GESTOR",
+		"clube": null,
+		"entidadeReferencia": "39536806-B9EE-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"5153699F-27E0-EC11-B656-A04A5EA99CCE",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "15D31BDC-C6DD-EC11-B656-A04A5EA99CCE",
+		"dataCadastro": "2022-05-30T00:00:00.000Z"
+	},
+	{
+		"id": "37D6C383-9C82-EC11-94F6-A04A5EAEC657",
+		"nome": "Eliel da Silva ",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": "Associação Esportiva Jacareí Rugby",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"C719875E-21F6-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "37D6C383-9C82-EC11-94F6-A04A5EAEC657",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "37D6C383-9C82-EC11-94F6-A04A5EAEC657",
+		"nome": "Eliel da Silva ",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": "Associação Esportiva Jacareí Rugby",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"C819875E-21F6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "37D6C383-9C82-EC11-94F6-A04A5EAEC657",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "1BED473A-669A-EC11-A22A-A04A5EAEED59",
+		"nome": "UARY PACHECO RIBEIRO GONDIM",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": "CHARRUA RUGBY CLUBE",
+		"entidadeReferencia": "8FD7B2EB-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"AC336A16-1AF6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "1BED473A-669A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "1BED473A-669A-EC11-A22A-A04A5EAEED59",
+		"nome": "UARY PACHECO RIBEIRO GONDIM",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": "CHARRUA RUGBY CLUBE",
+		"entidadeReferencia": "8FD7B2EB-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"AE336A16-1AF6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "1BED473A-669A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "1BED473A-669A-EC11-A22A-A04A5EAEED59",
+		"nome": "UARY PACHECO RIBEIRO GONDIM",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": "CHARRUA RUGBY CLUBE",
+		"entidadeReferencia": "8FD7B2EB-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"B0336A16-1AF6-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "1BED473A-669A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "3658F879-6B9A-EC11-A22A-A04A5EAEED59",
+		"nome": "LEONARDO CARNIATO RODRIGUES",
+		"cargo": "MANAGER",
+		"clube": "Associação Esportiva Rugby São Carlos",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"76E6D8D8-55F7-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "3658F879-6B9A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "3658F879-6B9A-EC11-A22A-A04A5EAEED59",
+		"nome": "LEONARDO CARNIATO RODRIGUES",
+		"cargo": "GESTOR",
+		"clube": "Associação Esportiva Rugby São Carlos",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"77E6D8D8-55F7-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "3658F879-6B9A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "C6DFB185-799A-EC11-A22A-A04A5EAEED59",
+		"nome": "CARLOS ILTEGLAN CUNHA SILVA",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": "ASSOCIAÇÃO DELTA RUGBY CLUBE",
+		"entidadeReferencia": null,
+		"idCargo": [
+			"F3443A02-19F6-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C6DFB185-799A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "C6DFB185-799A-EC11-A22A-A04A5EAEED59",
+		"nome": "CARLOS ILTEGLAN CUNHA SILVA",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": "ASSOCIAÇÃO DELTA RUGBY CLUBE",
+		"entidadeReferencia": null,
+		"idCargo": [
+			"F5443A02-19F6-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C6DFB185-799A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "C6DFB185-799A-EC11-A22A-A04A5EAEED59",
+		"nome": "CARLOS ILTEGLAN CUNHA SILVA",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": "ASSOCIAÇÃO DELTA RUGBY CLUBE",
+		"entidadeReferencia": null,
+		"idCargo": [
+			"F7443A02-19F6-EC11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "C6DFB185-799A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "C6DFB185-799A-EC11-A22A-A04A5EAEED59",
+		"nome": "CARLOS ILTEGLAN CUNHA SILVA",
+		"cargo": "GESTOR",
+		"clube": "ASSOCIAÇÃO DELTA RUGBY CLUBE",
+		"entidadeReferencia": null,
+		"idCargo": [
+			"F9443A02-19F6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "C6DFB185-799A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "C6DFB185-799A-EC11-A22A-A04A5EAEED59",
+		"nome": "CARLOS ILTEGLAN CUNHA SILVA",
+		"cargo": "ARBITRO",
+		"clube": "ASSOCIAÇÃO DELTA RUGBY CLUBE",
+		"entidadeReferencia": null,
+		"idCargo": [
+			"FA443A02-19F6-EC11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "C6DFB185-799A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "6A109CD7-EF9A-EC11-A22A-A04A5EAEED59",
+		"nome": "SIMON CORBI",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": "Guanabara Rugby",
+		"entidadeReferencia": "1833A01F-EF01-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"505EAC13-1F02-ED11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "6A109CD7-EF9A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-07-12T00:00:00.000Z"
+	},
+	{
+		"id": "14FC3901-F19A-EC11-A22A-A04A5EAEED59",
+		"nome": "JULIO CÉSAR CARMO FARIA DOS SANTOS",
+		"cargo": "GESTOR",
+		"clube": "Associação Esportiva Jacareí Rugby",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"EEEEE7FB-7312-ED11-BD6E-A04A5E9D8B9F",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "14FC3901-F19A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-08-02T00:00:00.000Z"
+	},
+	{
+		"id": "14FC3901-F19A-EC11-A22A-A04A5EAEED59",
+		"nome": "JULIO CÉSAR CARMO FARIA DOS SANTOS",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": "Associação Esportiva Jacareí Rugby",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"F0EEE7FB-7312-ED11-BD6E-A04A5E9D8B9F",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "14FC3901-F19A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-08-02T00:00:00.000Z"
+	},
+	{
+		"id": "14FC3901-F19A-EC11-A22A-A04A5EAEED59",
+		"nome": "JULIO CÉSAR CARMO FARIA DOS SANTOS",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": "Associação Esportiva Jacareí Rugby",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"DD09440D-C3F3-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "14FC3901-F19A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-24T00:00:00.000Z"
+	},
+	{
+		"id": "14FC3901-F19A-EC11-A22A-A04A5EAEED59",
+		"nome": "JULIO CÉSAR CARMO FARIA DOS SANTOS",
+		"cargo": "GESTOR",
+		"clube": "Associação Esportiva Jacareí Rugby",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"E109440D-C3F3-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "14FC3901-F19A-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-24T00:00:00.000Z"
+	},
+	{
+		"id": "BF51C71D-399B-EC11-A22A-A04A5EAEED59",
+		"nome": "FABIANO CUSTODIO FERREIRA",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": "Tucanos Rugby Club",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"E57BF944-F7F7-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BF51C71D-399B-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "BF51C71D-399B-EC11-A22A-A04A5EAEED59",
+		"nome": "FABIANO CUSTODIO FERREIRA",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": "Tucanos Rugby Club",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"E67BF944-F7F7-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BF51C71D-399B-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "BF51C71D-399B-EC11-A22A-A04A5EAEED59",
+		"nome": "FABIANO CUSTODIO FERREIRA",
+		"cargo": "GESTOR",
+		"clube": "Tucanos Rugby Club",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"E77BF944-F7F7-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BF51C71D-399B-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "BF51C71D-399B-EC11-A22A-A04A5EAEED59",
+		"nome": "FABIANO CUSTODIO FERREIRA",
+		"cargo": "ARBITRO",
+		"clube": "Tucanos Rugby Club",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"E87BF944-F7F7-EC11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "BF51C71D-399B-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "BF51C71D-399B-EC11-A22A-A04A5EAEED59",
+		"nome": "FABIANO CUSTODIO FERREIRA",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": "Tucanos Rugby Club",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"E97BF944-F7F7-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BF51C71D-399B-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "BF51C71D-399B-EC11-A22A-A04A5EAEED59",
+		"nome": "FABIANO CUSTODIO FERREIRA",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": "Tucanos Rugby Club",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"EB7BF944-F7F7-EC11-B47A-A04A5E9D9F1A",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "BF51C71D-399B-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "472054CD-5E9B-EC11-A22A-A04A5EAEED59",
+		"nome": "CAMILA FERNANDES FERRO",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": "JOACA RUGBY CLUBE",
+		"entidadeReferencia": "DE0A6440-ED01-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"12EE8F59-83F5-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "472054CD-5E9B-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "472054CD-5E9B-EC11-A22A-A04A5EAEED59",
+		"nome": "CAMILA FERNANDES FERRO",
+		"cargo": "FISIOTERAPEUTA",
+		"clube": "JOACA RUGBY CLUBE",
+		"entidadeReferencia": "DE0A6440-ED01-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"16EE8F59-83F5-EC11-B47A-A04A5E9D9F1A",
+			"D40CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "472054CD-5E9B-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-26T00:00:00.000Z"
+	},
+	{
+		"id": "F1751CC3-FC9C-EC11-A22A-A04A5EAEED59",
+		"nome": "MARCIO RODRIGUES ROSALE",
+		"cargo": "GESTOR",
+		"clube": "União Rugby Alphaville",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"BD3D6830-D0F4-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "F1751CC3-FC9C-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "B3DE7D53-A09F-EC11-A22A-A04A5EAEED59",
+		"nome": "FRANCISCO TAVARES DE OLIVEIRA NETO",
+		"cargo": "MANAGER",
+		"clube": "Associação Esportiva Politécnica de Rugby",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"06420788-1AF6-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "B3DE7D53-A09F-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "B3DE7D53-A09F-EC11-A22A-A04A5EAEED59",
+		"nome": "FRANCISCO TAVARES DE OLIVEIRA NETO",
+		"cargo": "GESTOR",
+		"clube": "Associação Esportiva Politécnica de Rugby",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"09420788-1AF6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "B3DE7D53-A09F-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "B3DE7D53-A09F-EC11-A22A-A04A5EAEED59",
+		"nome": "FRANCISCO TAVARES DE OLIVEIRA NETO",
+		"cargo": "ARBITRO",
+		"clube": "Associação Esportiva Politécnica de Rugby",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"0C420788-1AF6-EC11-B47A-A04A5E9D9F1A",
+			"D00CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "B3DE7D53-A09F-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "5F0D75F1-6BA0-EC11-A22A-A04A5EAEED59",
+		"nome": "LUCIANO COSTA PRADO",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": "Associação Piracicaba Rugby ",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"411C1FD6-57F6-EC11-B47A-A04A5E9D9F1A",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "5F0D75F1-6BA0-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "5F0D75F1-6BA0-EC11-A22A-A04A5EAEED59",
+		"nome": "LUCIANO COSTA PRADO",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": "Associação Piracicaba Rugby ",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"431C1FD6-57F6-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "5F0D75F1-6BA0-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "61BA391A-AFA0-EC11-A22A-A04A5EAEED59",
+		"nome": "DARA SILVA E CHARIFE",
+		"cargo": "MEDICO",
+		"clube": "CURITIBA RUGBY CLUBE",
+		"entidadeReferencia": "50640F4D-F001-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"A3D0097C-1BF6-EC11-B47A-A04A5E9D9F1A",
+			"D10CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "61BA391A-AFA0-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "6399ABCD-C2A3-EC11-A22A-A04A5EAEED59",
+		"nome": "VINICIUS DA ROCHA IMATO",
+		"cargo": "GESTOR",
+		"clube": "Associação Esportiva Rugby São Carlos",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"8D25EC42-A6F7-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "6399ABCD-C2A3-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-29T00:00:00.000Z"
+	},
+	{
+		"id": "1C58E71F-4BA4-EC11-A22A-A04A5EAEED59",
+		"nome": "MILENA MALAVAZI ROMÃO",
+		"cargo": "GESTOR",
+		"clube": "Lenks Rugby Clube",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"BA5204DB-2FF6-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "1C58E71F-4BA4-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "1C58E71F-4BA4-EC11-A22A-A04A5EAEED59",
+		"nome": "MILENA MALAVAZI ROMÃO",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": "Lenks Rugby Clube",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"BB5204DB-2FF6-EC11-B47A-A04A5E9D9F1A",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "1C58E71F-4BA4-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "A53A9505-71A4-EC11-A22A-A04A5EAEED59",
+		"nome": "ALEX BENINI DE SALVI",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": "Associação Desportiva Piratas Rugby",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"0C61579B-A1F4-EC11-B47A-A04A5E9D9F1A",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "A53A9505-71A4-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "A53A9505-71A4-EC11-A22A-A04A5EAEED59",
+		"nome": "ALEX BENINI DE SALVI",
+		"cargo": "TREINADOR ADULTO - MASCULINO",
+		"clube": "Associação Desportiva Piratas Rugby",
+		"entidadeReferencia": "4285CFC8-19D8-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"0D61579B-A1F4-EC11-B47A-A04A5E9D9F1A",
+			"1DB48805-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "A53A9505-71A4-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-25T00:00:00.000Z"
+	},
+	{
+		"id": "2896C121-73A4-EC11-A22A-A04A5EAEED59",
+		"nome": "GABRIELA GODOI CARNEIRO",
+		"cargo": "MANAGER",
+		"clube": "CURITIBA RUGBY CLUBE",
+		"entidadeReferencia": "50640F4D-F001-EB11-96F5-000D3A1023B3",
+		"idCargo": [
+			"682BC145-45F6-EC11-B47A-A04A5E9D9F1A",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "2896C121-73A4-EC11-A22A-A04A5EAEED59",
+		"dataCadastro": "2022-06-27T00:00:00.000Z"
+	},
+	{
+		"id": "6EC388A8-3475-EB11-9889-A085FC37B64B",
+		"nome": "PEDRO HENRIQUE SIQUEIRA PINTO",
+		"cargo": "GESTOR",
+		"clube": "Indaiatuba Rugby Clube",
+		"entidadeReferencia": "EF42FAAF-A2F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"D6C19AF2-34F7-EC11-B47A-A04A5E9D9F1A",
+			"AC294623-7DDB-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "6EC388A8-3475-EB11-9889-A085FC37B64B",
+		"dataCadastro": "2022-06-28T00:00:00.000Z"
+	},
+	{
+		"id": "6EC388A8-3475-EB11-9889-A085FC37B64B",
+		"nome": "PEDRO HENRIQUE SIQUEIRA PINTO",
+		"cargo": "TREINADOR JUVENIL - MASCULINO",
+		"clube": "Indaiatuba Rugby Clube",
+		"entidadeReferencia": "EF42FAAF-A2F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"46E347AF-4EE0-EC11-B656-A04A5EA99CCE",
+			"EF1B8653-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "6EC388A8-3475-EB11-9889-A085FC37B64B",
+		"dataCadastro": "2022-05-30T00:00:00.000Z"
+	},
+	{
+		"id": "6EC388A8-3475-EB11-9889-A085FC37B64B",
+		"nome": "PEDRO HENRIQUE SIQUEIRA PINTO",
+		"cargo": "TREINADOR JUVENIL - FEMININO",
+		"clube": "Indaiatuba Rugby Clube",
+		"entidadeReferencia": "EF42FAAF-A2F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"4AE347AF-4EE0-EC11-B656-A04A5EA99CCE",
+			"57FF98E8-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "6EC388A8-3475-EB11-9889-A085FC37B64B",
+		"dataCadastro": "2022-05-30T00:00:00.000Z"
+	},
+	{
+		"id": "6EC388A8-3475-EB11-9889-A085FC37B64B",
+		"nome": "PEDRO HENRIQUE SIQUEIRA PINTO",
+		"cargo": "TREINADOR INFANTIL",
+		"clube": "Indaiatuba Rugby Clube",
+		"entidadeReferencia": "EF42FAAF-A2F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"4EE347AF-4EE0-EC11-B656-A04A5EA99CCE",
+			"300A8DE0-C4D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "6EC388A8-3475-EB11-9889-A085FC37B64B",
+		"dataCadastro": "2022-05-30T00:00:00.000Z"
+	},
+	{
+		"id": "6EC388A8-3475-EB11-9889-A085FC37B64B",
+		"nome": "PEDRO HENRIQUE SIQUEIRA PINTO",
+		"cargo": "TREINADOR ADULTO - FEMININO",
+		"clube": "Indaiatuba Rugby Clube",
+		"entidadeReferencia": "EF42FAAF-A2F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"4FE347AF-4EE0-EC11-B656-A04A5EA99CCE",
+			"84685D6E-C5D6-EC11-B656-A04A5EA99CCE"
+		],
+		"idPessoa": "6EC388A8-3475-EB11-9889-A085FC37B64B",
+		"dataCadastro": "2022-05-30T00:00:00.000Z"
+	},
+	{
+		"id": "6EC388A8-3475-EB11-9889-A085FC37B64B",
+		"nome": "PEDRO HENRIQUE SIQUEIRA PINTO",
+		"cargo": "MANAGER",
+		"clube": "Indaiatuba Rugby Clube",
+		"entidadeReferencia": "EF42FAAF-A2F2-EA11-AF8C-000D3A1022B7",
+		"idCargo": [
+			"52E347AF-4EE0-EC11-B656-A04A5EA99CCE",
+			"CE0CCB08-92CE-EA11-8B03-000D3A10217F"
+		],
+		"idPessoa": "6EC388A8-3475-EB11-9889-A085FC37B64B",
+		"dataCadastro": "2022-05-30T00:00:00.000Z"
+	}
+]
